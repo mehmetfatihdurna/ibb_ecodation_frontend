@@ -99,40 +99,54 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <form>
+                    <form class="needs-validation" novalidate>
+
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com"
+                                required>
+                            <label for="floatingInput">Kullanıcı Adı</label>
+                            <div class="invalid-feedback">
+                                Boş bırakılamaz!
+                            </div>
+                        </div>
 
                         <div class="form-floating mb-3">
                             <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com"
                                 required>
-                            <label for="floatingInput">Kullanıcı Adı</label>
-                        </div>
-
-                        <div class="form-floating mb-3">
-                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
                             <label for="floatingInput">Email address</label>
+                            <div class="invalid-feedback">
+                                Hatalı!
+                            </div>
                         </div>
 
                         <div class="form-floating mb-3">
-                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password"
+                                required>
                             <label for="floatingPassword">Şifre</label>
+                            <div class="invalid-feedback">
+                                Parolalar uyuşmuyor!
+                            </div>
                         </div>
 
                         <div class="form-floating mb-3">
-                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password"
+                                required>
                             <label for="floatingPassword">Şifre Tekrar</label>
+                            <div class="invalid-feedback">
+                                Parolalar uyuşmuyor!
+                            </div>
                         </div>
 
                         <div class="mb-3 form-check mt-2">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
                             <label class="form-check-label" for="exampleCheck1"><a href="#"><u>Aydınlatma
                                         metnini</u></a> okudum onaylıyorum.</label>
+                            <div class="invalid-feedback">
+                                Okuyup, onaylamalısınız!
+                            </div>
                         </div>
-
+                        <button type="submit" class="btn btn-primary">Kayıt Ol</button>
                     </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="submit" class="btn btn-primary">Kayıt Ol</button>
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
                 </div>
             </div>
         </div>
@@ -151,27 +165,42 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <form>
+                    <!-- Login Form -->
+                    <form class="needs-validation" novalidate>
                         <div class="form-floating mb-3">
-                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com"
+                                required>
                             <label for="floatingInput">Email address</label>
+                            <div class="valid-feedback">
+                                Harika Görünüyor!
+                            </div>
+                            <div class="invalid-feedback">
+                                Hatalı mail!
+                            </div>
                         </div>
 
                         <div class="form-floating">
-                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password"
+                                required>
                             <label for="floatingPassword">Password</label>
+                            <div class="valid-feedback">
+                                Harika Görünüyor!
+                            </div>
+                            <div class="invalid-feedback">
+                                Parola alanı boş bırakılamaz!
+                            </div>
                         </div>
 
                         <div class="mb-3 form-check mt-2">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
                             <label class="form-check-label" for="exampleCheck1">Beni Hatırla</label>
+                            <div class="invalid-feedback">
+                                Onaylamanız gerekmekte!
+                            </div>
                         </div>
-
+                        <button type="submit" class="btn btn-primary">Giriş</button>
                     </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="submit" class="btn btn-primary">Giriş</button>
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+                    <!-- Login Form -->
                 </div>
             </div>
         </div>
@@ -336,6 +365,9 @@
 
     <!-- external JS -->
     <script src="template.js"></script>
+
+    <!-- validation js -->
+    <script src="validation.js"></script>
 </body>
 
 </html>
