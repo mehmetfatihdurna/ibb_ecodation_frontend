@@ -1,6 +1,6 @@
 # İBB  Ecodation Frontend
 ---------
-## Author: HAmit MIZRAK
+## Author: Mehmet Fatih Durna
 
 ---------
 ## Frontend
