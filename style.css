@@ -59,6 +59,14 @@ i {
     clear: both;
 }
 
+.myHeading{
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    text-shadow: 2px -1px rgba(0,0,0,.4);
+}
+
 /* my special Size */
 .fSize1 {
     font-size: 1rem;
@@ -81,6 +89,14 @@ i {
 }
 
 /* Line-clamp */
+
+.line-clamp4{
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden; 
+}
+
 .line-clamp5{
     -webkit-line-clamp: 5;
     -webkit-box-orient: vertical;
@@ -118,6 +134,12 @@ background-size: cover;
 background-position: 50% 50%;
 height:80vh;
 padding-top:4rem;
+}
+
+/* Header */
+#messages i{
+    font-size: 5rem;
+    color: blueviolet;
 }
 
 /* Footer */
