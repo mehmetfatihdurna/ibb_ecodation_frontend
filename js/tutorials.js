@@ -141,9 +141,83 @@ console.error(userData + 50);
 
 //Cast
 
-console.log(Number("10.2") + 10);
-console.log(parseInt("10.2") + 10);
+// console.log(Number("10.2") + 10);
+// console.log(parseInt("10.2") + 10);
 
-console.log(String(30) + 10);
-var number = 30;
-console.log(number.toString()+10);
+// console.log(String(30) + 10);
+// var number = 30;
+// console.log(number.toString()+10);
+
+
+
+//  var, let, const
+
+// var data1=11;
+// console.log(data1);
+
+// var data1=22;
+// console.log(data1);
+
+// let data2=33;
+// console.log(data2);
+
+// let data3=33;
+// data3=44;
+// console.log(data3);
+
+// const data4=55;
+// console.log(data4);
+
+// const data5=55;
+// data5=66;
+// console.log(data5);
+
+
+//String
+// let str = " js ÖĞreniyorum js ";
+// console.log(str);
+// console.log(str.length);
+// console.log(str.trim().length); //başındaki ve sonundaki boşlukları alır
+// console.log(str.toLowerCase());
+// console.log(str.toUpperCase());
+
+// console.log(str.charAt(0));
+
+// console.log(str.indexOf("js"));
+// console.log(str.lastIndexOf("js"));
+
+// console.log(str.concat("sona")); //sona ekleme yapar
+// console.log(str.replace("js", "javascript",));
+
+// console.log(str.substring(0,6));
+
+// Function 
+
+// function fonksiyon(){
+//     console.log("deneme");
+// }
+
+// fonksiyon();
+
+// function salut(adi){
+//     console.log("hoşgeldin " + adi);
+// }
+
+// salut("Fatih");
+
+// function returnlufonk(){
+//     return "deneme";
+// }
+
+// let result = returnlufonk();
+// console.log(result);
+
+
+// //Normal Function
+// function normal(){};
+
+// //Anonymous Function
+// let anonymous = function(){};
+
+// //Arrow function
+// let arrow = ()=>{};
