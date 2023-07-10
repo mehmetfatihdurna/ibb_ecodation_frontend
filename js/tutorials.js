@@ -81,36 +81,35 @@ var userData = Number(prompt("Lütfen birşeyler  yazınız: "))
 console.error(userData + 50);
 */
 
-// undefined
-var result;
-console.log(result);
+// // undefined
+// var result;
+// console.log(result);
 
-//NaN: Not a Number
-var result= "asd"/3;
-console.log(result);
+// //NaN: Not a Number
+// var result= "asd"/3;
+// console.log(result);
 
-// isNaN
-var result = 4;
-console.log(isNaN(result)); // falsedır çünkü sayı çıkar...
+// // isNaN
+// var result = 4;
+// console.log(isNaN(result)); // falsedır çünkü sayı çıkar...
 
-// infinity
+// // infinity
 
-console.log(5/0);
+// console.log(5/0);
 
-//Math
-console.log(Math.PI);
-console.log(Math.E);
-console.log(Math.min(1,2999,234234,-1));
-console.log(Math.max(12,14,2,13,18));
-console.log(Math.sqrt(81));
-console.log(Math.abs(-31));
-console.log(Math.pow(2,5));
-console.log(Math.floor(3.9));
-console.log(Math.ceil(3.1));
-console.log(Math.round(6.4));
-console.log(Math.round(6.1));
-console.log(Math.sin(90));
+// //Math
+// console.log(Math.PI);
+// console.log(Math.E);
+// console.log(Math.min(1,2999,234234,-1));
+// console.log(Math.max(12,14,2,13,18));
+// console.log(Math.sqrt(81));
+// console.log(Math.abs(-31));
+// console.log(Math.pow(2,5));
+// console.log(Math.floor(3.9));
+// console.log(Math.ceil(3.1));
+// console.log(Math.round(6.4));
+// console.log(Math.round(6.1));
+// console.log(Math.sin(90));
 
-console.log(Math.round(Math.random()*9+1));
-
+// console.log(Math.round(Math.random()*9+1));
 
