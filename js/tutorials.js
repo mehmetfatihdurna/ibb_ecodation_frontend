@@ -113,3 +113,37 @@ console.error(userData + 50);
 
 // console.log(Math.round(Math.random()*9+1));
 
+
+// Number 
+// var sayi=15000;
+// console.log(sayi);
+
+// var sayi2=1.5E+4;
+// console.log(sayi2);
+
+// binary,octal,decimal, hexadecimal
+
+// binary : 0-1
+// var binary=0b00011;
+// console.log(binary);
+
+// octal : 0-1-2-3-4-5-6-7
+// var octal=0o7612;
+// console.log(octal);
+
+// decimal : 0-1-2-3-4-5-6-7-8-9
+// var decimal=123456;
+// console.log(decimal);
+
+// hexdecimal : 0-1-2-3-4-5-6-7-8-9-A-B-C-D-E-F
+// var hexadecimal=0xffa;
+// console.log(hexadecimal);
+
+//Cast
+
+console.log(Number("10.2") + 10);
+console.log(parseInt("10.2") + 10);
+
+console.log(String(30) + 10);
+var number = 30;
+console.log(number.toString()+10);
